@@ -35,7 +35,7 @@
     padding: 10px 24px;
 }
 section{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .flex{
     display: flex;
@@ -67,6 +67,7 @@ section{
 .banner{
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 .banner-content{
     max-width: 582px;
@@ -87,9 +88,19 @@ section{
 .banner-img{
     max-width: 440px;
     background-image: url(../images/Circle\ design.svg);
-    background-repeat: no-repeat;
-    background-position: center;
 }
+
+/* Sponsors Section Styles*/
+.sponsors .img-container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 37px 62px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    margin-bottom: 100px;
+}
+
 
 /* Responsive for Mobile Devices */
 @media screen and (max-width: 576px) {
