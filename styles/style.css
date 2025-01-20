@@ -117,6 +117,7 @@ section{
 .collections{
     max-width: 1047px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .collections-title{
     text-align: center;
@@ -165,6 +166,30 @@ section{
     border: none;
     display: block;
     margin-left: auto;
+}
+/* Feature Section Styles */
+.feature{
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 76px;
+    margin-bottom: 100px;
+}
+.feature-img{
+    border-radius: 7px;
+    height: 270px;
+    width: 404px;
+}
+.feature-title{
+    font-size: 2.40rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature-desc{
+    font-size: 1rem;
+    font-weight: 700;
+    max-width: 501px;
+    margin-bottom: 16px;
 }
 
 /* Responsive for Mobile Devices */
