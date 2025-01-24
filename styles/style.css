@@ -202,7 +202,7 @@ header{
 .feature-desc{
     font-size: 1rem;
     font-weight: 700;
-    max-width: 501px;
+    /* max-width: 501px; */
     margin-bottom: 16px;
 }
 /* Footer Section Styles */
@@ -236,7 +236,37 @@ footer{
 
 /* Responsive for Mobile Devices */
 @media screen and (max-width: 576px) {
+    .nav-logo{
+        margin: 0 auto;
+    }
+    .nav-links{
+        display: none;
+    }
     .banner{
         flex-direction: column-reverse;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner-content{
+        text-align: center;
+        padding: 18px;
+    }
+    .sponsors .img-container{
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .collections-container{
+        grid-template-columns: 1fr;
+    }
+    .items-container{
+        margin: 0 auto;
+    }
+    .feature{
+        flex-direction: column-reverse;
+    }
+    .feature-content{
+        text-align: center;
     }
 }
