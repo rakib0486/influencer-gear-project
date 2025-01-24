@@ -20,6 +20,11 @@
 }
 
 /* Shared Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .color-1{
     color: #3A3A3A;
 }
@@ -58,7 +63,6 @@ header{
     margin: 0 auto;
     margin-top: 60px;
 }
-
 /* Nav Styles */
 .nav{
     justify-content: space-between;
